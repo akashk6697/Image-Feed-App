@@ -24,7 +24,10 @@ git clone https://github.com/your-username/rick-morty-app.git
 cd rick-morty-app
 
 2. Install dependencies
-npm install
+   npm install axios bootstrap react-bootstrap
+   
+3. Add Bootstrap: Import Bootstrap styles in src/index.tsx
+   import 'bootstrap/dist/css/bootstrap.min.css';
 
-3. Run the development server
-npm start
+4. Run the development server
+   npm start
